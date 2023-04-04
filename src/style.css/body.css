@@ -34,9 +34,11 @@
     display: flex;
     position: absolute;
     left: 40%;
-    bottom: 54%;
-    /* border: 1px solid lightgray;
-    background-color: rgba(211, 211, 211, 0.387); */
+    bottom: 58%;
+    /* width: 15rem;
+    height: 2.5rem;
+    border: 1px solid lightgray;
+    background-color: rgba(211, 211, 211, 0.387);  */
 }
 
 .body-button {

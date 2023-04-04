@@ -16,8 +16,8 @@ export const Body = () => {
             <SearchBar/>
         </div>
         <div className='body-button'>
-            <Button title={"Google Search"}/>
-            <Button title={"I'm Feeling Lucky"}/>
+            <button title={"Google Search"}/>
+            <button title={"I'm Feeling Lucky"}/>
         </div>
         <div className='languages'>
                 <div className='offer' style={{color: "#000001"}}>Google offer in:</div>
