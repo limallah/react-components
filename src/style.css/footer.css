@@ -1,0 +1,39 @@
+.location {
+    display: flex;
+    position: absolute;
+    bottom: 9%;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(211, 211, 211, 0.424);
+    padding: 0.8rem;
+    color: gray;
+    font-size: medium;
+    padding-left: 30px;
+}
+
+.bottom-menu {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0.1%;
+    width: 100%;
+    height: 28px;
+    background-color: rgba(211, 211, 211, 0.424);
+    padding: 0.8rem;
+    color: gray;
+    font-size: medium;
+    border-top: 1px solid lightgray;
+}
+
+.leftmenu {
+    display: flex;
+    justify-items: flex-end;
+    gap: 15px;
+    margin-left: 20px;
+}
+.rightmenu {
+    display: flex;
+    justify-items: flex-end;
+    gap: 15px;
+    margin-right: 40px;
+}

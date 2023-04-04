@@ -1,0 +1,21 @@
+.header-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+    margin-right: 6px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 10px;
+}
+
+.login {
+    width: 6rem;
+    height: 40px;
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+    border-style: none;
+    
+}

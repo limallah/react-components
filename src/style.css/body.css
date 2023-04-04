@@ -1,0 +1,63 @@
+.bodysection {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    margin-bottom: 5px;
+}
+
+.search {
+    display: flex; 
+    /* justify-content: center; */
+    /* gap: 8px; */
+    position: absolute;  
+    left: 28%;
+    bottom: 65%;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 35rem;
+    height: 38px;
+}
+
+.icons {
+    display: flex;
+    /* justify-items: flex-end; */
+    /* gap: 2px;
+    width: 30px; */
+}
+
+.display-searchkey {
+    display: flex;
+    position: absolute;
+    left: 40%;
+    bottom: 54%;
+    /* border: 1px solid lightgray;
+    background-color: rgba(211, 211, 211, 0.387); */
+}
+
+.body-button {
+    display: flex;
+    position: absolute;
+    left: 42%;
+    bottom: 45%;
+    gap: 15px;;
+    height: 40px;
+    font-size: 20px;
+    padding: 0px 0px;
+    border-style: none;
+    border: none;
+}
+
+.languages{
+    display: flex;
+    position: absolute;
+    left: 38%;
+    gap: 10px;
+    bottom: 40%;
+    color: blue;
+    font-size: small;
+}
