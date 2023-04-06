@@ -17,15 +17,21 @@ export const SearchBar = () => {
   }
   return (
     <>
-      <div className='search'>      
-          <img src={Icon} alt="Search-Icon"  style={{hieght:"4px", color: "lightgrey"}}/>
-          <input ref={inputRef} type="text" className='input' onKeyDown={handleEnter} style={{border: "none",}}/> 
-      <div className="icons">
-          <img src={Icon2} alt="Google-Lens" style={{hieght:"2px"}}/>
-          <img src={Icon3} alt="Google-Mic"  style={{hieght:"2px"}}/> 
+      <div className='search'>    
+        <div className='search-icon'> 
+          <img src={Icon} alt="Search-Icon"/>
+        </div> 
+
+        <div className='input-wrap'>
+          <input ref={inputRef} type="text" onKeyDown={handleEnter}/> 
+        </div>
+
+        <div className="icons">
+          <img src={Icon2} alt="Google-Lens" />
+          <img src={Icon3} alt="Google-Mic" /> 
+        </div>
       </div>
 
-      </div>
       <div className='display-searchkey'>{message}</div>
     </>
   )

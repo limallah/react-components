@@ -10,7 +10,9 @@ export const Header = () => {
             <NavItems title={"Gmail"} style={{fontsize: "small"}}/>
             <NavItems title={"Images"} style={{fontsize: "small"}}/>
             <GoogleLauncher/>
-            <button title={"Sign in"} className="login"/>
+            <div >
+              <Button className="btn_login" title={"Sign in"}/>
+            </div>
             
         </div>
     </div>

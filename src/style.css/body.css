@@ -1,6 +1,6 @@
-.bodysection {
+/* .bodysection {
     display: flex;
-}
+} */
 
 .logo {
     display: flex;
@@ -12,22 +12,45 @@
 
 .search {
     display: flex; 
-    /* justify-content: center; */
-    /* gap: 8px; */
+    justify-content: space-between;
+    /* gap: 2rem; */
     position: absolute;  
-    left: 28%;
+    left: 24%;
     bottom: 65%;
     border: 1px solid lightgray;
     border-radius: 20px;
-    width: 35rem;
-    height: 38px;
+    width: fit-content;
+    height: 40px;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+    height: 40px;
+}
+
+.input-wrap {
+    display: flex;
+    width:100%; 
+    margin-left: 30px;
+    border: none;
+    
+    
+}
+
+input {
+    border: none;
+    border-style: none;
+    padding-left: 5px;
+    width: 100%;
 }
 
 .icons {
     display: flex;
-    /* justify-items: flex-end; */
-    /* gap: 2px;
-    width: 30px; */
+    /* float: right; */
+    justify-content: end;
+    margin-right: 36px;
 }
 
 .display-searchkey {
@@ -45,14 +68,21 @@
     display: flex;
     position: absolute;
     left: 42%;
-    bottom: 45%;
-    gap: 15px;;
-    height: 40px;
+    bottom: 48%;
+    gap: 20px;;
     font-size: 20px;
-    padding: 0px 0px;
+    width: 20rem;
+    height: 40px;
+    padding: 0px 8px;
     border-style: none;
     border: none;
-}
+} 
+/* .btn {
+    color: lightgrey;
+    width: 150px;
+    border-style: none;
+    border: none;
+} */
 
 .languages{
     display: flex;

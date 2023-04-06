@@ -15,9 +15,9 @@
     display: flex;
     justify-content: space-between;
     position: absolute;
-    bottom: 0.1%;
+    bottom: 0%;
     width: 100%;
-    height: 28px;
+    height: 30px;
     background-color: rgba(211, 211, 211, 0.424);
     padding: 0.8rem;
     color: gray;
@@ -35,5 +35,5 @@
     display: flex;
     justify-items: flex-end;
     gap: 15px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
